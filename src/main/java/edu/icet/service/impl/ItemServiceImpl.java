@@ -15,8 +15,6 @@ import java.util.Optional;
 public class ItemServiceImpl implements ItemService {
     private final ItemRepository itemRepository;
 
-
-
     @Override
     public List<Item> getAllItems() {
         return itemRepository.findAll();
